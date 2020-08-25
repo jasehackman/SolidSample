@@ -41,7 +41,7 @@ namespace ArdalisRating
 
                 case PolicyType.Life:
                     var rater3 = new LifePolicyRater(this, this.Logger);
-                    rater3.Rater(policy);
+                    rater3.Rate(policy);
                     break;
 
                 default:
